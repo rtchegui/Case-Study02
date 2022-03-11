@@ -1,0 +1,80 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="script" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="script" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        <script src="p5.min.js"></script>
+        <script src="p5.dom.min.js"></script>
+        <script src="p5.sound.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            img {
+                width: 100%;
+                height: 100%
+            }
+
+            .bg-black {
+                background: #000
+            }
+
+            .skill-block {
+                width: 30%
+            }
+
+            @media (min-width: 991px) and (max-width:1200px) {
+                .skill-block {
+                    padding: 32px !important
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .skill-block {
+                    padding: 56px !important
+                }
+            }
+
+            body {
+                background-color: #eeeeee
+            }
+        </style>
+
+    </head>
+    <body>
+        <script src="sketch.js"></script>
+        <div class="container mt-5 mb-5">
+            <div class="row no-gutters">
+                <div class="col-md-4 col-lg-4"><img src="https://phantom-marca.unidadeditorial.es/0f1c1724c1247c0a96d6b9bd68068837/resize/1320/f/jpg/assets/multimedia/imagenes/2022/03/07/16466633656940.jpg"></div>
+                <div class="col-md-8 col-lg-8">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row justify-content-between align-items-center p-5 bg-dark text-white">
+                            <h3 class="display-5">ROGER TCHEGUI</h3><i class="fa fa-facebook"></i><i class="fa fa-google"></i><i class="fa fa-youtube-play"></i><i class="fa fa-dribbble"></i><i class="fa fa-linkedin"></i>
+                        </div>
+                        <div class="p-3 bg-black text-white">
+                            <h6>Data Science/Machine Learning Engineer</h6>
+                        </div>
+                        <div class="d-flex flex-row text-white">
+                            <div class="p-4 bg-primary text-center skill-block">
+                                <h4>90%</h4>
+                                <h6>Data Scientist</h6>
+                            </div>
+                            <div class="p-3 bg-success text-center skill-block">
+                                <h4>70%</h4>
+                                <h6>Machine Learning Engineer</h6>
+                            </div>
+                            <div class="p-3 bg-warning text-center skill-block">
+                                <h4>80%</h4>
+                                <h6>R</h6>
+                            </div>
+                            <div class="p-3 bg-danger text-center skill-block">
+                                <h4>85%</h4>
+                                <h6>PYTHON</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

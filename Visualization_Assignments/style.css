@@ -1,0 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+#defaultCanvas0{
+  margin-left: 21%;
+  width: 1120px !important;
+  height: 150px !important;
+}
